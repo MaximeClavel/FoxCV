@@ -32,21 +32,22 @@ const cvDataFR = {
     {
       name: "FoxLog",
       tagline: "Chrome Extension — Salesforce Debug Log Viewer",
-      version: "1.3.1",
-      users: 37,
-      releases: 7,
+      version: "1.4.1",
+      users: 39,
+      releases: 9,
       license: "MIT",
       languages: [
-        { name: "JavaScript", pct: 77.6, color: "#f1e05a" },
-        { name: "CSS", pct: 20.1, color: "#563d7c" },
-        { name: "Apex", pct: 1.5, color: "#1797c0" },
-        { name: "HTML", pct: 0.8, color: "#e34c26" }
+        { name: "JavaScript", pct: 79.0, color: "#f1e05a" },
+        { name: "CSS", pct: 18.7, color: "#563d7c" },
+        { name: "Apex", pct: 1.6, color: "#1797c0" },
+        { name: "HTML", pct: 0.7, color: "#e34c26" }
       ],
       description: "Extension Chrome puissante qui révolutionne l'analyse des debug logs Salesforce. Fini les logs bruts illisibles : visualisez instantanément vos logs Apex dans une interface moderne et intuitive directement depuis Salesforce Lightning.",
       features: [
         { icon: "📊", title: "Visualisation temps réel", desc: "Affichage automatique des logs Apex avec rafraîchissement intelligent et parseur analysant 15+ types de lignes" },
         { icon: "🔍", title: "22 détections d'anti-patterns", desc: "SOQL/DML en boucle, N+1 Query, récursion Trigger, IDs en dur… avec niveaux de sévérité et suggestions de correction" },
         { icon: "🌳", title: "4 vues complémentaires", desc: "Summary, Call Tree hiérarchique, Analyse anti-patterns, Raw Log — avec export PDF/Markdown/TXT" },
+        { icon: "📂", title: "Import de logs locaux", desc: "Import de fichiers .txt/.log par drag & drop, historique persistant avec gestion du stockage et analyse complète en un clic" },
         { icon: "👥", title: "Gestion multi-utilisateurs", desc: "Sélection d'utilisateur avec indicateurs visuels de TraceFlag 🟢🟡📋 et activation/désactivation en un clic" },
         { icon: "⚡", title: "Performance optimisée", desc: "Cache intelligent, Web Workers pour le call tree, traitement en arrière-plan pour une expérience fluide" },
         { icon: "🛡️", title: "Alertes limites Salesforce", desc: "Monitoring temps réel des limites d'exécution avec alertes visuelles à 70% et 90%" }
@@ -255,21 +256,22 @@ const cvDataEN = {
     {
       name: "FoxLog",
       tagline: "Chrome Extension — Salesforce Debug Log Viewer",
-      version: "1.3.1",
-      users: 37,
-      releases: 7,
+      version: "1.4.1",
+      users: 39,
+      releases: 9,
       license: "MIT",
       languages: [
-        { name: "JavaScript", pct: 77.6, color: "#f1e05a" },
-        { name: "CSS", pct: 20.1, color: "#563d7c" },
-        { name: "Apex", pct: 1.5, color: "#1797c0" },
-        { name: "HTML", pct: 0.8, color: "#e34c26" }
+        { name: "JavaScript", pct: 79.0, color: "#f1e05a" },
+        { name: "CSS", pct: 18.7, color: "#563d7c" },
+        { name: "Apex", pct: 1.6, color: "#1797c0" },
+        { name: "HTML", pct: 0.7, color: "#e34c26" }
       ],
       description: "A powerful Chrome extension that revolutionizes Salesforce debug log analysis. No more unreadable raw logs: instantly visualize your Apex logs in a modern, intuitive interface directly from Salesforce Lightning.",
       features: [
         { icon: "📊", title: "Real-time Visualization", desc: "Automatic display of Apex logs with smart refresh and a parser analyzing 15+ log line types" },
         { icon: "🔍", title: "22 Anti-pattern Detections", desc: "SOQL/DML in loops, N+1 Query, Trigger recursion, hardcoded IDs… with severity levels and fix suggestions" },
         { icon: "🌳", title: "4 Complementary Views", desc: "Summary, hierarchical Call Tree, Anti-pattern Analysis, Raw Log — with PDF/Markdown/TXT export" },
+        { icon: "📂", title: "Local Log Import", desc: "Import .txt/.log files via drag & drop, persistent history with storage management, and one-click full analysis" },
         { icon: "👥", title: "Multi-user Management", desc: "User selector with visual TraceFlag indicators 🟢🟡📋 and one-click activation/deactivation" },
         { icon: "⚡", title: "Optimized Performance", desc: "Smart caching, Web Workers for the call tree, background processing for a smooth experience" },
         { icon: "🛡️", title: "Salesforce Limits Alerts", desc: "Real-time monitoring of execution limits with visual alerts at 70% and 90%" }
