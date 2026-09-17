@@ -20,8 +20,8 @@ const cvDataFR = {
     { name: "WINDEV / WEBDEV", level: 60, cat: "advanced" },
     { name: "SQL", level: 75, cat: "advanced" }
   ],
-  tools: ["VSCode", "Dataloader", "Git", "Postman", "Copilot", "NetBeans", "Eclipse", "Bitbucket", "GitLab", "Azure DevOps"],
-  areas: ["Développement applicatif", "Cloud Computing", "Data Science", "CI/CD & DevOps"],
+  tools: ["VSCode", "Dataloader", "Git", "Postman", "Copilot", "NetBeans", "Eclipse", "GitHub", "GitHub Actions", "Bitbucket", "TeamCity", "GitLab", "Azure DevOps", "Shell", "Bash"],
+  areas: ["Développement applicatif", "Cloud Computing", "Data Science", "CI/CD & DevOps", "Ingénierie de contexte IA"],
   linkedinUrl: "https://www.linkedin.com/in/maxime-clavel-7603a3aa/",
   linkedinPosts: [
     { title: "TDX '24 — Deep Dive into Apex Best Practices", date: "Mars 2025", url: "https://www.linkedin.com/posts/maxime-clavel-7603a3aa_tdx-24-deep-dive-into-apex-best-practices-ugcPost-7175340048383397888-kLW6" },
@@ -66,9 +66,9 @@ const cvDataFR = {
       dates: "10/2022 — Présent",
       position: "Lead Developer Salesforce — Consultant Technique",
       employer: "CGI Montréal",
-      description: "Implémentation de solutions fonctionnelles robustes respectant les exigences client et les bonnes pratiques Salesforce. Analyse et résolution de problèmes et incidents. Application de correctifs via configuration et mise en place de la solution. Maintenance des composants Salesforce. Implémentation CI/CD.",
-      responsibilities: ["Développement de nouvelles fonctionnalités", "Support technique", "Implémentation/support DevOps", "Revue de code"],
-      environment: ["Salesforce CRM", "Bitbucket", "CI/CD"]
+      description: "Arrivé en phase de démarrage du projet : mise en place des bonnes pratiques de livraison Salesforce et animation d'ateliers fonctionnels avec les équipes métier d'Hydro-Québec, en posture technico-fonctionnelle (aucun analyste métier dédié au départ). Livraison de fonctionnalités pour l'équipe Vente (opportunités, formulaires de captation client, tableaux de bord de performance) et lead technique d'une suite CI/CD à 4 pipelines, avec pilotage de la migration vers GitHub Actions. Structure le contexte fourni à GitHub Copilot pour la practice Salesforce, présenté à un client CGI et ayant débouché sur un mandat de POC.",
+      responsibilities: ["Ateliers fonctionnels & bonnes pratiques", "Fonctionnalités équipe Vente", "Lead technique CI/CD", "Ingénierie de contexte IA (Copilot)", "Revue de code"],
+      environment: ["Salesforce CRM", "Experience Cloud", "Bitbucket", "TeamCity", "GitHub Actions", "GitHub Copilot"]
     },
     {
       sector: "Énergie Renouvelable",
@@ -93,7 +93,7 @@ const cvDataFR = {
       dates: "03/2021 — 12/2021",
       position: "Développeur Salesforce — Consultant Technique",
       employer: "CGI Montpellier",
-      description: "Intégration continue avec différents systèmes externes : G-Suite, Medallia, SAP-DataLake-MongoDB-TIBCO, CPQ — Configuration de prix et devis.",
+      description: "Intégration continue avec différents systèmes externes : G-Suite, Medallia, SAP-DataLake-MongoDB, CPQ — Configuration de prix et devis.",
       responsibilities: ["Développement de nouvelles fonctionnalités", "Support technique"],
       environment: ["Salesforce CRM", "Google G-Suite", "Medallia", "SAP", "CPQ"]
     },
@@ -221,7 +221,9 @@ const cvDataFR = {
   ],
   education: [
     { title: "RNCP Niveau 7 — Expert Informatique et Système d'Information", school: "EPSI, Montpellier", year: "2018" },
-    { title: "RNCP Niveau 6 — Administrateur Systèmes, Réseaux et Bases de Données", school: "EPSI, Montpellier", year: "2016" }
+    { title: "RNCP Niveau 6 — Administrateur Systèmes, Réseaux et Bases de Données", school: "EPSI, Montpellier", year: "2016" },
+    { title: "MuleSoft — Anypoint Platform Development Fundamentals (formation autodidacte, pratique en labo Anypoint Studio)", school: "MuleSoft", year: "2022" },
+    { title: "Salesforce Data Cloud — préparation à la certification, autodidacte (examen non passé)", school: "Salesforce", year: "2024" }
   ]
 };
 
@@ -244,8 +246,8 @@ const cvDataEN = {
     { name: "WINDEV / WEBDEV", level: 60, cat: "advanced" },
     { name: "SQL", level: 75, cat: "advanced" }
   ],
-  tools: ["VSCode", "Dataloader", "Git", "Postman", "Copilot", "NetBeans", "Eclipse", "Bitbucket", "GitLab", "Azure DevOps"],
-  areas: ["Application Development", "Cloud Computing", "Data Science", "CI/CD & DevOps"],
+  tools: ["VSCode", "Dataloader", "Git", "Postman", "Copilot", "NetBeans", "Eclipse", "GitHub", "GitHub Actions", "Bitbucket", "TeamCity", "GitLab", "Azure DevOps", "Shell", "Bash"],
+  areas: ["Application Development", "Cloud Computing", "Data Science", "CI/CD & DevOps", "AI Context Engineering"],
   linkedinUrl: "https://www.linkedin.com/in/maxime-clavel-7603a3aa/",
   linkedinPosts: [
     { title: "TDX '24 — Deep Dive into Apex Best Practices", date: "March 2025", url: "https://www.linkedin.com/posts/maxime-clavel-7603a3aa_tdx-24-deep-dive-into-apex-best-practices-ugcPost-7175340048383397888-kLW6" },
@@ -290,9 +292,9 @@ const cvDataEN = {
       dates: "10/2022 — Present",
       position: "Salesforce Lead Developer — Technical Consultant",
       employer: "CGI Montreal",
-      description: "Implementation of robust functional solutions meeting client requirements and Salesforce best practices. Analysis and resolution of issues and incidents. Applying fixes via configuration and solution implementation. Maintenance of Salesforce components. CI/CD implementation.",
-      responsibilities: ["New feature development", "Technical support", "DevOps implementation/support", "Code review"],
-      environment: ["Salesforce CRM", "Bitbucket", "CI/CD"]
+      description: "Joined at project kickoff: established Salesforce delivery best practices and ran functional workshops with Hydro-Québec business teams, acting as a technical-functional bridge (no dedicated business analyst at the start). Delivered Sales team features (opportunities, client-data capture forms, performance dashboards) and technical lead of a 4-pipeline CI/CD suite, leading the migration to GitHub Actions. Structures the context given to GitHub Copilot for the Salesforce practice, presented to a CGI client and leading to a proof-of-concept engagement.",
+      responsibilities: ["Functional workshops & best practices", "Sales team feature delivery", "CI/CD technical lead", "AI context engineering (Copilot)", "Code review"],
+      environment: ["Salesforce CRM", "Experience Cloud", "Bitbucket", "TeamCity", "GitHub Actions", "GitHub Copilot"]
     },
     {
       sector: "Renewable Energy",
@@ -317,7 +319,7 @@ const cvDataEN = {
       dates: "03/2021 — 12/2021",
       position: "Salesforce Developer — Technical Consultant",
       employer: "CGI Montpellier",
-      description: "Continuous integration with various external systems: G-Suite, Medallia, SAP-DataLake-MongoDB-TIBCO, CPQ — Configure Price Quote.",
+      description: "Continuous integration with various external systems: G-Suite, Medallia, SAP-DataLake-MongoDB, CPQ — Configure Price Quote.",
       responsibilities: ["New feature development", "Technical support"],
       environment: ["Salesforce CRM", "Google G-Suite", "Medallia", "SAP", "CPQ"]
     },
@@ -445,7 +447,9 @@ const cvDataEN = {
   ],
   education: [
     { title: "RNCP Level 7 — IT & Information Systems Expert", school: "EPSI, Montpellier", year: "2018" },
-    { title: "RNCP Level 6 — Systems, Networks & Database Administrator", school: "EPSI, Montpellier", year: "2016" }
+    { title: "RNCP Level 6 — Systems, Networks & Database Administrator", school: "EPSI, Montpellier", year: "2016" },
+    { title: "MuleSoft — Anypoint Platform Development Fundamentals (self-directed training, hands-on Anypoint Studio labs)", school: "MuleSoft", year: "2022" },
+    { title: "Salesforce Data Cloud — certification exam preparation, self-directed (exam not attempted)", school: "Salesforce", year: "2024" }
   ]
 };
 

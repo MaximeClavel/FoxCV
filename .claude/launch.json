@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "foxcv-static",
+      "runtimeExecutable": "C:\\Users\\maxime.clavel\\Git\\.nvm\\versions\\node\\v18.2.0\\bin\\node.exe",
+      "runtimeArgs": [".claude/static-server.js"],
+      "port": 5173
+    }
+  ]
+}
