@@ -3,7 +3,7 @@ let currentLang = localStorage.getItem('foxcv-lang') || 'fr';
 
 const cvDataFR = {
   name: "Maxime CLAVEL",
-  title: "Expert Technique Salesforce",
+  title: "Consultant Technique Salesforce Senior",
   yearsXP: "+10",
   nbProjects: 17,
   nbCerts: 2,
@@ -32,39 +32,42 @@ const cvDataFR = {
     {
       name: "FoxLog",
       tagline: "Chrome Extension — Salesforce Debug Log Viewer",
-      version: "1.4.1",
-      users: 39,
-      releases: 9,
+      version: "1.7.0",
+      users: 36,
+      releases: 11,
       license: "MIT",
       languages: [
-        { name: "JavaScript", pct: 79.0, color: "#f1e05a" },
-        { name: "CSS", pct: 18.7, color: "#563d7c" },
-        { name: "Apex", pct: 1.6, color: "#1797c0" },
-        { name: "HTML", pct: 0.7, color: "#e34c26" }
+        { name: "JavaScript", pct: 79.9, color: "#f1e05a" },
+        { name: "CSS", pct: 16.9, color: "#563d7c" },
+        { name: "Apex", pct: 2.0, color: "#1797c0" },
+        { name: "HTML", pct: 1.2, color: "#e34c26" }
       ],
       description: "Extension Chrome puissante qui révolutionne l'analyse des debug logs Salesforce. Fini les logs bruts illisibles : visualisez instantanément vos logs Apex dans une interface moderne et intuitive directement depuis Salesforce Lightning.",
       features: [
         { icon: "📊", title: "Visualisation temps réel", desc: "Affichage automatique des logs Apex avec rafraîchissement intelligent et parseur analysant 15+ types de lignes" },
         { icon: "🔍", title: "22 détections d'anti-patterns", desc: "SOQL/DML en boucle, N+1 Query, récursion Trigger, IDs en dur… avec niveaux de sévérité et suggestions de correction" },
-        { icon: "🌳", title: "4 vues complémentaires", desc: "Summary, Call Tree hiérarchique, Analyse anti-patterns, Raw Log — avec export PDF/Markdown/TXT" },
+        { icon: "🌳", title: "6 vues complémentaires", desc: "Summary, Call Tree hiérarchique, Flow, Analyse anti-patterns, Raw Log et Diff — avec export PDF/Markdown/TXT" },
+        { icon: "🕸️", title: "Graphe d'exécution (Flow)", desc: "Graphe visuel zoomable et déplaçable, façon n8n, des méthodes, SOQL, DML, triggers et flows, avec filtres par catégorie" },
+        { icon: "🔀", title: "Comparaison de logs (Diff)", desc: "Comparaison côte à côte de deux logs avec alignement LCS, différences en couleur, lignes identiques repliées et navigation entre divergences" },
         { icon: "📂", title: "Import de logs locaux", desc: "Import de fichiers .txt/.log par drag & drop, historique persistant avec gestion du stockage et analyse complète en un clic" },
         { icon: "👥", title: "Gestion multi-utilisateurs", desc: "Sélection d'utilisateur avec indicateurs visuels de TraceFlag 🟢🟡📋 et activation/désactivation en un clic" },
-        { icon: "⚡", title: "Performance optimisée", desc: "Cache intelligent, Web Workers pour le call tree, traitement en arrière-plan pour une expérience fluide" },
-        { icon: "🛡️", title: "Alertes limites Salesforce", desc: "Monitoring temps réel des limites d'exécution avec alertes visuelles à 70% et 90%" }
+        { icon: "⚡", title: "Performance optimisée", desc: "Cache intelligent, Web Workers pour le call tree et le diff, virtualisation des grandes listes, traitement en arrière-plan" },
+        { icon: "🛡️", title: "Alertes limites Salesforce", desc: "Monitoring temps réel des limites d'exécution avec alertes visuelles à 70% et 90%" },
+        { icon: "🎨", title: "Interface accessible", desc: "Thèmes clair et sombre selon l'OS, contraste WCAG AA, navigation au clavier et focus visibles" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh",
       githubUrl: "https://github.com/MaximeClavel/FoxLog"
     }
   ],
   cgiCareer: [
-    { office: "CGI — Montréal, Canada", dates: "04/2022 — Présent", missions: [0, 1] },
+    { office: "CGI — Montréal, Canada", dates: "05/2022 — Présent", missions: [0, 1] },
     { office: "CGI — Montpellier, France", dates: "09/2018 — 04/2022", missions: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }
   ],
   experiences: [
     {
       sector: "Énergie — Société d'État",
       dates: "10/2022 — Présent",
-      position: "Lead Developer Salesforce — Consultant Technique",
+      position: "Lead Developer Salesforce Senior — Consultant Technique",
       employer: "CGI Montréal",
       description: "Arrivé en phase de démarrage du projet : mise en place des bonnes pratiques de livraison Salesforce et animation d'ateliers fonctionnels avec les équipes métier d'Hydro-Québec, en posture technico-fonctionnelle (aucun analyste métier dédié au départ). Livraison de fonctionnalités pour l'équipe Vente (opportunités, formulaires de captation client, tableaux de bord de performance) et lead technique d'une suite CI/CD à 4 pipelines, avec pilotage de la migration vers GitHub Actions. Structure le contexte fourni à GitHub Copilot pour la practice Salesforce, présenté à un client CGI et ayant débouché sur un mandat de POC.",
       responsibilities: ["Ateliers fonctionnels & bonnes pratiques", "Fonctionnalités équipe Vente", "Lead technique CI/CD", "Ingénierie de contexte IA (Copilot)", "Revue de code"],
@@ -82,10 +85,10 @@ const cvDataFR = {
     {
       sector: "Aéronautique & Défense",
       dates: "12/2021 — 04/2022",
-      position: "Développeur Salesforce — Tech Lead Consultant",
+      position: "Développeur Salesforce — Tech Lead & Release Manager",
       employer: "CGI Montpellier",
-      description: "Leader technologique mondial. Environnement Salesforce pour la gestion des ventes liées à l'aérospatiale.",
-      responsibilities: ["Développement", "Support technique", "Revue d'implémentation", "Gestion des déploiements"],
+      description: "Leader technologique mondial. Environnement Salesforce pour la gestion des ventes liées à l'aérospatiale. Encadrement d'une équipe de développeurs, revues de code, gestion des releases et amélioration du CI/CD GitLab.",
+      responsibilities: ["Encadrement d'équipe", "Développement", "Support technique", "Revue d'implémentation", "Gestion des déploiements"],
       environment: ["Salesforce CRM", "GitLab", "CI/CD"]
     },
     {
@@ -93,8 +96,8 @@ const cvDataFR = {
       dates: "03/2021 — 12/2021",
       position: "Développeur Salesforce — Consultant Technique",
       employer: "CGI Montpellier",
-      description: "Intégration continue avec différents systèmes externes : G-Suite, Medallia, SAP-DataLake-MongoDB, CPQ — Configuration de prix et devis.",
-      responsibilities: ["Développement de nouvelles fonctionnalités", "Support technique"],
+      description: "Intégration continue avec différents systèmes externes : G-Suite, Medallia, SAP-DataLake-MongoDB, CPQ — Configuration de prix et devis. Audit de l'implémentation Salesforce existante.",
+      responsibilities: ["Développement de nouvelles fonctionnalités", "Support technique", "Audit Salesforce"],
       environment: ["Salesforce CRM", "Google G-Suite", "Medallia", "SAP", "CPQ"]
     },
     {
@@ -138,7 +141,7 @@ const cvDataFR = {
       dates: "10/2019 — 07/2020",
       position: "Responsable Technique",
       employer: "CGI Montpellier",
-      description: "Changement de CRM pour la partie B2C. Architecture technique, webservices, ateliers de cadrage.",
+      description: "Changement de CRM pour la partie B2C : migration vers un nouveau Salesforce. Architecture technique, conception de l'intégration de solutions tierces (webservices), ateliers de cadrage.",
       responsibilities: ["Architecture technique", "Webservices", "Ateliers de cadrage", "Gestion des risques", "Supervision technique"],
       environment: ["Salesforce CRM", "WebServices"]
     },
@@ -229,7 +232,7 @@ const cvDataFR = {
 
 const cvDataEN = {
   name: "Maxime CLAVEL",
-  title: "Salesforce Technical Expert",
+  title: "Senior Salesforce Technical Consultant",
   yearsXP: "+10",
   nbProjects: 17,
   nbCerts: 2,
@@ -258,39 +261,42 @@ const cvDataEN = {
     {
       name: "FoxLog",
       tagline: "Chrome Extension — Salesforce Debug Log Viewer",
-      version: "1.4.1",
-      users: 39,
-      releases: 9,
+      version: "1.7.0",
+      users: 36,
+      releases: 11,
       license: "MIT",
       languages: [
-        { name: "JavaScript", pct: 79.0, color: "#f1e05a" },
-        { name: "CSS", pct: 18.7, color: "#563d7c" },
-        { name: "Apex", pct: 1.6, color: "#1797c0" },
-        { name: "HTML", pct: 0.7, color: "#e34c26" }
+        { name: "JavaScript", pct: 79.9, color: "#f1e05a" },
+        { name: "CSS", pct: 16.9, color: "#563d7c" },
+        { name: "Apex", pct: 2.0, color: "#1797c0" },
+        { name: "HTML", pct: 1.2, color: "#e34c26" }
       ],
       description: "A powerful Chrome extension that revolutionizes Salesforce debug log analysis. No more unreadable raw logs: instantly visualize your Apex logs in a modern, intuitive interface directly from Salesforce Lightning.",
       features: [
         { icon: "📊", title: "Real-time Visualization", desc: "Automatic display of Apex logs with smart refresh and a parser analyzing 15+ log line types" },
         { icon: "🔍", title: "22 Anti-pattern Detections", desc: "SOQL/DML in loops, N+1 Query, Trigger recursion, hardcoded IDs… with severity levels and fix suggestions" },
-        { icon: "🌳", title: "4 Complementary Views", desc: "Summary, hierarchical Call Tree, Anti-pattern Analysis, Raw Log — with PDF/Markdown/TXT export" },
+        { icon: "🌳", title: "6 Complementary Views", desc: "Summary, hierarchical Call Tree, Flow, Anti-pattern Analysis, Raw Log and Diff — with PDF/Markdown/TXT export" },
+        { icon: "🕸️", title: "Execution Graph (Flow)", desc: "Pannable, zoomable n8n-style graph of methods, SOQL, DML, triggers and flows, with category filters" },
+        { icon: "🔀", title: "Log Diffing", desc: "Side-by-side comparison of two logs with LCS alignment, color-coded differences, folded identical lines and divergence navigation" },
         { icon: "📂", title: "Local Log Import", desc: "Import .txt/.log files via drag & drop, persistent history with storage management, and one-click full analysis" },
         { icon: "👥", title: "Multi-user Management", desc: "User selector with visual TraceFlag indicators 🟢🟡📋 and one-click activation/deactivation" },
-        { icon: "⚡", title: "Optimized Performance", desc: "Smart caching, Web Workers for the call tree, background processing for a smooth experience" },
-        { icon: "🛡️", title: "Salesforce Limits Alerts", desc: "Real-time monitoring of execution limits with visual alerts at 70% and 90%" }
+        { icon: "⚡", title: "Optimized Performance", desc: "Smart caching, Web Workers for the call tree and diff, virtualization of large lists, background processing" },
+        { icon: "🛡️", title: "Salesforce Limits Alerts", desc: "Real-time monitoring of execution limits with visual alerts at 70% and 90%" },
+        { icon: "🎨", title: "Accessible Interface", desc: "Light and dark themes following the OS, WCAG AA contrast, keyboard navigation and visible focus rings" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh",
       githubUrl: "https://github.com/MaximeClavel/FoxLog"
     }
   ],
   cgiCareer: [
-    { office: "CGI — Montreal, Canada", dates: "04/2022 — Present", missions: [0, 1] },
+    { office: "CGI — Montreal, Canada", dates: "05/2022 — Present", missions: [0, 1] },
     { office: "CGI — Montpellier, France", dates: "09/2018 — 04/2022", missions: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }
   ],
   experiences: [
     {
       sector: "Energy — State Corporation",
       dates: "10/2022 — Present",
-      position: "Salesforce Lead Developer — Technical Consultant",
+      position: "Senior Salesforce Lead Developer — Technical Consultant",
       employer: "CGI Montreal",
       description: "Joined at project kickoff: established Salesforce delivery best practices and ran functional workshops with Hydro-Québec business teams, acting as a technical-functional bridge (no dedicated business analyst at the start). Delivered Sales team features (opportunities, client-data capture forms, performance dashboards) and technical lead of a 4-pipeline CI/CD suite, leading the migration to GitHub Actions. Structures the context given to GitHub Copilot for the Salesforce practice, presented to a CGI client and leading to a proof-of-concept engagement.",
       responsibilities: ["Functional workshops & best practices", "Sales team feature delivery", "CI/CD technical lead", "AI context engineering (Copilot)", "Code review"],
@@ -308,10 +314,10 @@ const cvDataEN = {
     {
       sector: "Aerospace & Defense",
       dates: "12/2021 — 04/2022",
-      position: "Salesforce Developer — Tech Lead Consultant",
+      position: "Salesforce Developer — Tech Lead & Release Manager",
       employer: "CGI Montpellier",
-      description: "Global technology leader. Salesforce environment for aerospace sales management.",
-      responsibilities: ["Development", "Technical support", "Implementation review", "Deployment management"],
+      description: "Global technology leader. Salesforce environment for aerospace sales management. Led a team of developers, code reviews, release management and improvement of the GitLab CI/CD.",
+      responsibilities: ["Team leadership", "Development", "Technical support", "Implementation review", "Deployment management"],
       environment: ["Salesforce CRM", "GitLab", "CI/CD"]
     },
     {
@@ -319,8 +325,8 @@ const cvDataEN = {
       dates: "03/2021 — 12/2021",
       position: "Salesforce Developer — Technical Consultant",
       employer: "CGI Montpellier",
-      description: "Continuous integration with various external systems: G-Suite, Medallia, SAP-DataLake-MongoDB, CPQ — Configure Price Quote.",
-      responsibilities: ["New feature development", "Technical support"],
+      description: "Continuous integration with various external systems: G-Suite, Medallia, SAP-DataLake-MongoDB, CPQ — Configure Price Quote. Audit of the existing Salesforce implementation.",
+      responsibilities: ["New feature development", "Technical support", "Salesforce audit"],
       environment: ["Salesforce CRM", "Google G-Suite", "Medallia", "SAP", "CPQ"]
     },
     {
@@ -364,7 +370,7 @@ const cvDataEN = {
       dates: "10/2019 — 07/2020",
       position: "Technical Lead",
       employer: "CGI Montpellier",
-      description: "CRM change for the B2C division. Technical architecture, web services, scoping workshops.",
+      description: "CRM change for the B2C division: migration to a new Salesforce. Technical architecture, design of the third-party integrations (web services), scoping workshops.",
       responsibilities: ["Technical architecture", "Web services", "Scoping workshops", "Risk management", "Technical oversight"],
       environment: ["Salesforce CRM", "WebServices"]
     },
@@ -455,7 +461,7 @@ const cvDataEN = {
 
 const uiLabels = {
   fr: {
-    appTitle: "Salesforce Technical Consultant",
+    appTitle: "Senior Salesforce Technical Consultant",
     searchPlaceholder: "Rechercher dans le CV...",
     darkModeTitle: "Basculer mode sombre / clair",
     tabHome: "Accueil", tabProfile: "Profil", tabExperience: "Expériences",
@@ -482,7 +488,7 @@ const uiLabels = {
     alternance: "Alternance"
   },
   en: {
-    appTitle: "Salesforce Technical Consultant",
+    appTitle: "Senior Salesforce Technical Consultant",
     searchPlaceholder: "Search in CV...",
     darkModeTitle: "Toggle dark / light mode",
     tabHome: "Home", tabProfile: "Profile", tabExperience: "Experience",
