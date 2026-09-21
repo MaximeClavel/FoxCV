@@ -55,7 +55,7 @@ const cvDataFR = {
         { icon: "🛡️", title: "Alertes limites Salesforce", desc: "Monitoring temps réel des limites d'exécution avec alertes visuelles à 70% et 90%" },
         { icon: "🎨", title: "Interface accessible", desc: "Thèmes clair et sombre selon l'OS, contraste WCAG AA, navigation au clavier et focus visibles" }
       ],
-      chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh",
+      chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
       githubUrl: "https://github.com/MaximeClavel/FoxLog"
     }
   ],
@@ -284,7 +284,7 @@ const cvDataEN = {
         { icon: "🛡️", title: "Salesforce Limits Alerts", desc: "Real-time monitoring of execution limits with visual alerts at 70% and 90%" },
         { icon: "🎨", title: "Accessible Interface", desc: "Light and dark themes following the OS, WCAG AA contrast, keyboard navigation and visible focus rings" }
       ],
-      chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh",
+      chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
       githubUrl: "https://github.com/MaximeClavel/FoxLog"
     }
   ],
