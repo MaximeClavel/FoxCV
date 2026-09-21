@@ -530,7 +530,7 @@ function renderHome() {
     <div class="dashboard-grid">
       <article class="slds-card kpi-card"><div class="slds-card__body slds-card__body_inner"><div class="kpi-value">${d.yearsXP}</div><div class="kpi-label">${l.yearsXP}</div></div></article>
       <article class="slds-card kpi-card accent-green"><div class="slds-card__body slds-card__body_inner"><div class="kpi-value">${d.nbProjects}</div><div class="kpi-label">${l.projectsDone}</div></div></article>
-      <article class="slds-card kpi-card accent-orange"><div class="slds-card__body slds-card__body_inner"><div class="kpi-value">${d.nbCerts}</div><div class="kpi-label">${l.sfCerts}</div></div></article>
+      <article class="slds-card kpi-card accent-neutral"><div class="slds-card__body slds-card__body_inner"><div class="kpi-value">${d.nbCerts}</div><div class="kpi-label">${l.sfCerts}</div></div></article>
       <article class="slds-card kpi-card accent-purple"><div class="slds-card__body slds-card__body_inner"><div class="kpi-value">6</div><div class="kpi-label">${l.industrySectors}</div></div></article>
     </div>
     <article class="slds-card">

@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700;color:#032d60}
 .kpi-value{font-size:2.25rem;font-weight:700;color:#1b96ff;line-height:1}
 .kpi-label{font-size:.8125rem;color:#706e6b;margin-top:.375rem}
 .kpi-card.accent-green .kpi-value{color:#2e844a}
-.kpi-card.accent-orange .kpi-value{color:#dd7a01}
+.kpi-card.accent-neutral .kpi-value{color:#5a6a7e}
 .kpi-card.accent-purple .kpi-value{color:#8b6dba}
 
 /* ===== RECORD DETAIL GRID ===== */
@@ -332,6 +332,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700;color:#032d60}
 @media(min-width:769px){
     .mobile-launcher-panel,.mobile-launcher-overlay{display:none!important}
     .mobile-header-launcher{display:none!important}
+    .context-bar-launcher{display:none!important}
 }
 @media(max-width:768px){
     .split-view{grid-template-columns:1fr}
