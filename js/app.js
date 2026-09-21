@@ -69,7 +69,7 @@ const cvDataFR = {
       dates: "10/2022 — Présent",
       position: "Lead Developer Salesforce Senior — Consultant Technique",
       employer: "CGI Montréal",
-      description: "Arrivé en phase de démarrage du projet : mise en place des bonnes pratiques de livraison Salesforce et animation d'ateliers fonctionnels avec les équipes métier d'Hydro-Québec, en posture technico-fonctionnelle (aucun analyste métier dédié au départ). Livraison de fonctionnalités pour l'équipe Vente (opportunités, formulaires de captation client, tableaux de bord de performance) et lead technique d'une suite CI/CD à 4 pipelines, avec pilotage de la migration vers GitHub Actions. Structure le contexte fourni à GitHub Copilot pour la practice Salesforce, présenté à un client CGI et ayant débouché sur un mandat de POC.",
+      description: "Arrivé en phase de démarrage du projet : mise en place des bonnes pratiques de livraison Salesforce et animation d'ateliers fonctionnels avec les équipes métier du client, en posture technico-fonctionnelle (aucun analyste métier dédié au départ). Livraison de fonctionnalités pour l'équipe Vente (opportunités, formulaires de captation client, tableaux de bord de performance) et lead technique d'une suite CI/CD à 4 pipelines, avec pilotage de la migration vers GitHub Actions. Structure le contexte fourni à GitHub Copilot pour la practice Salesforce, présenté à un client CGI et ayant débouché sur un mandat de POC.",
       responsibilities: ["Ateliers fonctionnels & bonnes pratiques", "Fonctionnalités équipe Vente", "Lead technique CI/CD", "Ingénierie de contexte IA (Copilot)", "Revue de code"],
       environment: ["Salesforce CRM", "Experience Cloud", "Bitbucket", "TeamCity", "GitHub Actions", "GitHub Copilot"]
     },
@@ -298,7 +298,7 @@ const cvDataEN = {
       dates: "10/2022 — Present",
       position: "Senior Salesforce Lead Developer — Technical Consultant",
       employer: "CGI Montreal",
-      description: "Joined at project kickoff: established Salesforce delivery best practices and ran functional workshops with Hydro-Québec business teams, acting as a technical-functional bridge (no dedicated business analyst at the start). Delivered Sales team features (opportunities, client-data capture forms, performance dashboards) and technical lead of a 4-pipeline CI/CD suite, leading the migration to GitHub Actions. Structures the context given to GitHub Copilot for the Salesforce practice, presented to a CGI client and leading to a proof-of-concept engagement.",
+      description: "Joined at project kickoff: established Salesforce delivery best practices and ran functional workshops with the client's business teams, acting as a technical-functional bridge (no dedicated business analyst at the start). Delivered Sales team features (opportunities, client-data capture forms, performance dashboards) and technical lead of a 4-pipeline CI/CD suite, leading the migration to GitHub Actions. Structures the context given to GitHub Copilot for the Salesforce practice, presented to a CGI client and leading to a proof-of-concept engagement.",
       responsibilities: ["Functional workshops & best practices", "Sales team feature delivery", "CI/CD technical lead", "AI context engineering (Copilot)", "Code review"],
       environment: ["Salesforce CRM", "Experience Cloud", "Bitbucket", "TeamCity", "GitHub Actions", "GitHub Copilot"]
     },
