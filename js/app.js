@@ -33,7 +33,7 @@ const cvDataFR = {
       name: "FoxLog",
       tagline: "Chrome & Firefox Extension — Salesforce Debug Log Viewer",
       version: "1.10.0",
-      users: 36,
+      users: 159,
       releases: 12,
       license: "MIT",
       languages: [
@@ -59,7 +59,8 @@ const cvDataFR = {
         { icon: "🎨", title: "Interface accessible", desc: "Thèmes clair et sombre selon l'OS, contraste WCAG AA, navigation au clavier et focus visibles" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
-      githubUrl: "https://github.com/MaximeClavel/FoxLog"
+      githubUrl: "https://github.com/MaximeClavel/FoxLog",
+      videoId: "pE8SaN_r2V0"
     }
   ],
   cgiCareer: [
@@ -266,7 +267,7 @@ const cvDataEN = {
       name: "FoxLog",
       tagline: "Chrome & Firefox Extension — Salesforce Debug Log Viewer",
       version: "1.10.0",
-      users: 36,
+      users: 159,
       releases: 12,
       license: "MIT",
       languages: [
@@ -292,7 +293,8 @@ const cvDataEN = {
         { icon: "🎨", title: "Accessible Interface", desc: "Light and dark themes following the OS, WCAG AA contrast, keyboard navigation and visible focus rings" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
-      githubUrl: "https://github.com/MaximeClavel/FoxLog"
+      githubUrl: "https://github.com/MaximeClavel/FoxLog",
+      videoId: "Kt5F_Ojo8_w"
     }
   ],
   cgiCareer: [
@@ -489,7 +491,7 @@ const uiLabels = {
     langFrameworks: "Langages & Frameworks", toolsSoftware: "Outils & Logiciels",
     expertiseAreas: "Domaines d'expertise", certifications: "Certifications",
     education: "Formation", issuedBy: "Délivré par",
-    keyFeatures: "Fonctionnalités clés", techStack: "Stack technique",
+    keyFeatures: "Fonctionnalités clés", techStack: "Stack technique", presentationVideo: "Vidéo de présentation",
     users: "utilisateurs", releases: "releases",
     employerInfo: "CGI — Montréal (depuis 04/2022)",
     yearsInIT: "ans dans l'IT", sfCertsCount: "certifications Salesforce",
@@ -516,7 +518,7 @@ const uiLabels = {
     langFrameworks: "Languages & Frameworks", toolsSoftware: "Tools & Software",
     expertiseAreas: "Areas of Expertise", certifications: "Certifications",
     education: "Education", issuedBy: "Issued by",
-    keyFeatures: "Key Features", techStack: "Tech Stack",
+    keyFeatures: "Key Features", techStack: "Tech Stack", presentationVideo: "Presentation Video",
     users: "users", releases: "releases",
     employerInfo: "CGI — Montreal (since 04/2022)",
     yearsInIT: "years in IT", sfCertsCount: "Salesforce certifications",
@@ -899,6 +901,25 @@ function renderProjects() {
         <p style="line-height:1.7;color:#3e3e3c;font-size:.875rem">${p.description}</p>
       </div>
     </article>
+
+    ${p.videoId ? `<!-- Presentation video -->
+    <article class="slds-card">
+      <div class="slds-card__header slds-grid">
+        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+          <div class="slds-media__figure">
+            <span class="slds-icon_container" style="background:#ea001e;border-radius:.25rem;width:2rem;height:2rem;display:flex;align-items:center;justify-content:center">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path d="M8 5v14l11-7z" fill="#fff"/></svg>
+            </span>
+          </div>
+          <div class="slds-media__body"><h2 class="slds-card__header-title"><span>${lb.presentationVideo}</span></h2></div>
+        </header>
+      </div>
+      <div class="slds-card__body slds-card__body_inner">
+        <div class="project-video">
+          <iframe src="https://www.youtube-nocookie.com/embed/${p.videoId}" title="${p.name} — ${lb.presentationVideo}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </article>` : ''}
 
     <!-- Features grid -->
     <article class="slds-card">
