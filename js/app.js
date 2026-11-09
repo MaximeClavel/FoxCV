@@ -31,32 +31,37 @@ const cvDataFR = {
   projects: [
     {
       name: "FoxLog",
-      tagline: "Chrome Extension — Salesforce Debug Log Viewer",
-      version: "1.7.0",
-      users: 36,
-      releases: 11,
+      tagline: "Chrome & Firefox Extension — Salesforce Debug Log Viewer",
+      version: "1.10.0",
+      users: 159,
+      releases: 12,
       license: "MIT",
       languages: [
-        { name: "JavaScript", pct: 79.9, color: "#f1e05a" },
-        { name: "CSS", pct: 16.9, color: "#563d7c" },
-        { name: "Apex", pct: 2.0, color: "#1797c0" },
-        { name: "HTML", pct: 1.2, color: "#e34c26" }
+        { name: "JavaScript", pct: 80.8, color: "#f1e05a" },
+        { name: "CSS", pct: 15.8, color: "#563d7c" },
+        { name: "Apex", pct: 2.2, color: "#1797c0" },
+        { name: "HTML", pct: 1.1, color: "#e34c26" },
+        { name: "Shell", pct: 0.1, color: "#89e051" }
       ],
-      description: "Extension Chrome puissante qui révolutionne l'analyse des debug logs Salesforce. Fini les logs bruts illisibles : visualisez instantanément vos logs Apex dans une interface moderne et intuitive directement depuis Salesforce Lightning.",
+      description: "Extension Chrome et Firefox puissante qui révolutionne l'analyse des debug logs Salesforce. Fini les logs bruts illisibles : visualisez instantanément vos logs Apex dans une interface moderne et intuitive directement depuis Salesforce Lightning.",
       features: [
         { icon: "📊", title: "Visualisation temps réel", desc: "Affichage automatique des logs Apex avec rafraîchissement intelligent et parseur analysant 15+ types de lignes" },
         { icon: "🔍", title: "22 détections d'anti-patterns", desc: "SOQL/DML en boucle, N+1 Query, récursion Trigger, IDs en dur… avec niveaux de sévérité et suggestions de correction" },
         { icon: "🌳", title: "6 vues complémentaires", desc: "Summary, Call Tree hiérarchique, Flow, Analyse anti-patterns, Raw Log et Diff — avec export PDF/Markdown/TXT" },
-        { icon: "🕸️", title: "Graphe d'exécution (Flow)", desc: "Graphe visuel zoomable et déplaçable, façon n8n, des méthodes, SOQL, DML, triggers et flows, avec filtres par catégorie" },
+        { icon: "🕸️", title: "Graphe d'exécution (Flow)", desc: "Graphe visuel zoomable et déplaçable, façon n8n, des méthodes, SOQL, SOSL, DML, callouts, triggers et flows, avec filtres par catégorie et navigation entre les erreurs" },
+        { icon: "🔎", title: "Flows et Validation Rules détaillés", desc: "Chaque élément de Flow (Assignment, Loop, Decision, Subflow, Action Call…) devient un nœud, et chaque Validation Rule affiche sa formule et son résultat" },
         { icon: "🔀", title: "Comparaison de logs (Diff)", desc: "Comparaison côte à côte de deux logs avec alignement LCS, différences en couleur, lignes identiques repliées et navigation entre divergences" },
         { icon: "📂", title: "Import de logs locaux", desc: "Import de fichiers .txt/.log par drag & drop, historique persistant avec gestion du stockage et analyse complète en un clic" },
+        { icon: "🙈", title: "Clear non destructif", desc: "Masque les logs du panneau sans les supprimer dans Salesforce, avec Annuler, Afficher et Restaurer, mémorisé par org et par utilisateur" },
         { icon: "👥", title: "Gestion multi-utilisateurs", desc: "Sélection d'utilisateur avec indicateurs visuels de TraceFlag 🟢🟡📋 et activation/désactivation en un clic" },
         { icon: "⚡", title: "Performance optimisée", desc: "Cache intelligent, Web Workers pour le call tree et le diff, virtualisation des grandes listes, traitement en arrière-plan" },
         { icon: "🛡️", title: "Alertes limites Salesforce", desc: "Monitoring temps réel des limites d'exécution avec alertes visuelles à 70% et 90%" },
         { icon: "🎨", title: "Interface accessible", desc: "Thèmes clair et sombre selon l'OS, contraste WCAG AA, navigation au clavier et focus visibles" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
-      githubUrl: "https://github.com/MaximeClavel/FoxLog"
+      firefoxUrl: "https://addons.mozilla.org/firefox/addon/foxlog-salesforce-debug-log/?utm_source=FoxCV",
+      githubUrl: "https://github.com/MaximeClavel/FoxLog",
+      videoId: "pE8SaN_r2V0"
     }
   ],
   cgiCareer: [
@@ -261,32 +266,37 @@ const cvDataEN = {
   projects: [
     {
       name: "FoxLog",
-      tagline: "Chrome Extension — Salesforce Debug Log Viewer",
-      version: "1.7.0",
-      users: 36,
-      releases: 11,
+      tagline: "Chrome & Firefox Extension — Salesforce Debug Log Viewer",
+      version: "1.10.0",
+      users: 159,
+      releases: 12,
       license: "MIT",
       languages: [
-        { name: "JavaScript", pct: 79.9, color: "#f1e05a" },
-        { name: "CSS", pct: 16.9, color: "#563d7c" },
-        { name: "Apex", pct: 2.0, color: "#1797c0" },
-        { name: "HTML", pct: 1.2, color: "#e34c26" }
+        { name: "JavaScript", pct: 80.8, color: "#f1e05a" },
+        { name: "CSS", pct: 15.8, color: "#563d7c" },
+        { name: "Apex", pct: 2.2, color: "#1797c0" },
+        { name: "HTML", pct: 1.1, color: "#e34c26" },
+        { name: "Shell", pct: 0.1, color: "#89e051" }
       ],
-      description: "A powerful Chrome extension that revolutionizes Salesforce debug log analysis. No more unreadable raw logs: instantly visualize your Apex logs in a modern, intuitive interface directly from Salesforce Lightning.",
+      description: "A powerful Chrome and Firefox extension that revolutionizes Salesforce debug log analysis. No more unreadable raw logs: instantly visualize your Apex logs in a modern, intuitive interface directly from Salesforce Lightning.",
       features: [
         { icon: "📊", title: "Real-time Visualization", desc: "Automatic display of Apex logs with smart refresh and a parser analyzing 15+ log line types" },
         { icon: "🔍", title: "22 Anti-pattern Detections", desc: "SOQL/DML in loops, N+1 Query, Trigger recursion, hardcoded IDs… with severity levels and fix suggestions" },
         { icon: "🌳", title: "6 Complementary Views", desc: "Summary, hierarchical Call Tree, Flow, Anti-pattern Analysis, Raw Log and Diff — with PDF/Markdown/TXT export" },
-        { icon: "🕸️", title: "Execution Graph (Flow)", desc: "Pannable, zoomable n8n-style graph of methods, SOQL, DML, triggers and flows, with category filters" },
+        { icon: "🕸️", title: "Execution Graph (Flow)", desc: "Pannable, zoomable n8n-style graph of methods, SOQL, SOSL, DML, callouts, triggers and flows, with category filters and error-to-error navigation" },
+        { icon: "🔎", title: "Detailed Flows and Validation Rules", desc: "Every Flow element (Assignment, Loop, Decision, Subflow, Action Call…) becomes a node, and every Validation Rule shows its formula and outcome" },
         { icon: "🔀", title: "Log Diffing", desc: "Side-by-side comparison of two logs with LCS alignment, color-coded differences, folded identical lines and divergence navigation" },
         { icon: "📂", title: "Local Log Import", desc: "Import .txt/.log files via drag & drop, persistent history with storage management, and one-click full analysis" },
+        { icon: "🙈", title: "Non-destructive Clear", desc: "Hides logs from the panel without deleting them in Salesforce, with Undo, Show and Restore, remembered per org and user" },
         { icon: "👥", title: "Multi-user Management", desc: "User selector with visual TraceFlag indicators 🟢🟡📋 and one-click activation/deactivation" },
         { icon: "⚡", title: "Optimized Performance", desc: "Smart caching, Web Workers for the call tree and diff, virtualization of large lists, background processing" },
         { icon: "🛡️", title: "Salesforce Limits Alerts", desc: "Real-time monitoring of execution limits with visual alerts at 70% and 90%" },
         { icon: "🎨", title: "Accessible Interface", desc: "Light and dark themes following the OS, WCAG AA contrast, keyboard navigation and visible focus rings" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
-      githubUrl: "https://github.com/MaximeClavel/FoxLog"
+      firefoxUrl: "https://addons.mozilla.org/firefox/addon/foxlog-salesforce-debug-log/?utm_source=FoxCV",
+      githubUrl: "https://github.com/MaximeClavel/FoxLog",
+      videoId: "Kt5F_Ojo8_w"
     }
   ],
   cgiCareer: [
@@ -483,7 +493,7 @@ const uiLabels = {
     langFrameworks: "Langages & Frameworks", toolsSoftware: "Outils & Logiciels",
     expertiseAreas: "Domaines d'expertise", certifications: "Certifications",
     education: "Formation", issuedBy: "Délivré par",
-    keyFeatures: "Fonctionnalités clés", techStack: "Stack technique",
+    keyFeatures: "Fonctionnalités clés", techStack: "Stack technique", presentationVideo: "Vidéo de présentation",
     users: "utilisateurs", releases: "releases",
     employerInfo: "CGI — Montréal (depuis 04/2022)",
     yearsInIT: "ans dans l'IT", sfCertsCount: "certifications Salesforce",
@@ -510,7 +520,7 @@ const uiLabels = {
     langFrameworks: "Languages & Frameworks", toolsSoftware: "Tools & Software",
     expertiseAreas: "Areas of Expertise", certifications: "Certifications",
     education: "Education", issuedBy: "Issued by",
-    keyFeatures: "Key Features", techStack: "Tech Stack",
+    keyFeatures: "Key Features", techStack: "Tech Stack", presentationVideo: "Presentation Video",
     users: "users", releases: "releases",
     employerInfo: "CGI — Montreal (since 04/2022)",
     yearsInIT: "years in IT", sfCertsCount: "Salesforce certifications",
@@ -878,6 +888,10 @@ function renderProjects() {
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
               Chrome Web Store
             </a>
+            ${p.firefoxUrl ? `<a href="${p.firefoxUrl}" target="_blank" rel="noopener noreferrer" class="project-btn project-btn--firefox">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5a2.5 2.5 0 00-5 0V5H4c-1.1 0-2 .9-2 2v3.8h1.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7s2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5a2.5 2.5 0 000-5z"/></svg>
+              Firefox Add-ons
+            </a>` : ''}
             <a href="${p.githubUrl}" target="_blank" rel="noopener noreferrer" class="project-btn project-btn--github">
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
               GitHub
@@ -893,6 +907,25 @@ function renderProjects() {
         <p style="line-height:1.7;color:#3e3e3c;font-size:.875rem">${p.description}</p>
       </div>
     </article>
+
+    ${p.videoId ? `<!-- Presentation video -->
+    <article class="slds-card">
+      <div class="slds-card__header slds-grid">
+        <header class="slds-media slds-media_center slds-has-flexi-truncate">
+          <div class="slds-media__figure">
+            <span class="slds-icon_container" style="background:#ea001e;border-radius:.25rem;width:2rem;height:2rem;display:flex;align-items:center;justify-content:center">
+              <svg viewBox="0 0 24 24" width="16" height="16"><path d="M8 5v14l11-7z" fill="#fff"/></svg>
+            </span>
+          </div>
+          <div class="slds-media__body"><h2 class="slds-card__header-title"><span>${lb.presentationVideo}</span></h2></div>
+        </header>
+      </div>
+      <div class="slds-card__body slds-card__body_inner">
+        <div class="project-video">
+          <iframe src="https://www.youtube-nocookie.com/embed/${p.videoId}" title="${p.name} — ${lb.presentationVideo}" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </article>` : ''}
 
     <!-- Features grid -->
     <article class="slds-card">
