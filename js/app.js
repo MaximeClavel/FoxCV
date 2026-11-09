@@ -6,7 +6,7 @@ const cvDataFR = {
   title: "Consultant Technique Salesforce Senior",
   yearsXP: "+10",
   nbProjects: 17,
-  nbCerts: 2,
+  nbCerts: 3,
   employer: "CGI",
   employerLogo: "assets/img/cgi-logo.png",
   profile: "Fort de plus de 10 ans d'expérience dans le secteur IT, expert Salesforce intervenant sur toutes les phases projet : analyse, conseil, conception fonctionnelle et technique, implémentation, gestion de versions et support utilisateur. Consultant chez CGI depuis 2018.",
@@ -220,7 +220,8 @@ const cvDataFR = {
   },
   certifications: [
     { name: "Salesforce Certified Administrator", img: "assets/img/cert-admin.png", issuer: "Salesforce" },
-    { name: "Salesforce Certified Platform Developer I", img: "assets/img/cert-dev1.png", issuer: "Salesforce" }
+    { name: "Salesforce Certified Platform Developer I", img: "assets/img/cert-dev1.png", issuer: "Salesforce" },
+    { name: "Salesforce Certified Platform Developer II", img: "assets/img/cert-dev2.png", issuer: "Salesforce" }
   ],
   education: [
     { title: "RNCP Niveau 7 — Expert Informatique et Système d'Information", school: "EPSI, Montpellier", year: "2018" },
@@ -235,7 +236,7 @@ const cvDataEN = {
   title: "Senior Salesforce Technical Consultant",
   yearsXP: "+10",
   nbProjects: 17,
-  nbCerts: 2,
+  nbCerts: 3,
   employer: "CGI",
   employerLogo: "assets/img/cgi-logo.png",
   profile: "With over 10 years of experience in the IT sector, Salesforce expert involved in all project phases: analysis, consulting, functional and technical design, implementation, version management and user support. Consultant at CGI since 2018.",
@@ -449,7 +450,8 @@ const cvDataEN = {
   },
   certifications: [
     { name: "Salesforce Certified Administrator", img: "assets/img/cert-admin.png", issuer: "Salesforce" },
-    { name: "Salesforce Certified Platform Developer I", img: "assets/img/cert-dev1.png", issuer: "Salesforce" }
+    { name: "Salesforce Certified Platform Developer I", img: "assets/img/cert-dev1.png", issuer: "Salesforce" },
+    { name: "Salesforce Certified Platform Developer II", img: "assets/img/cert-dev2.png", issuer: "Salesforce" }
   ],
   education: [
     { title: "RNCP Level 7 — IT & Information Systems Expert", school: "EPSI, Montpellier", year: "2018" },
