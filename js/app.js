@@ -59,6 +59,7 @@ const cvDataFR = {
         { icon: "🎨", title: "Interface accessible", desc: "Thèmes clair et sombre selon l'OS, contraste WCAG AA, navigation au clavier et focus visibles" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
+      firefoxUrl: "https://addons.mozilla.org/firefox/addon/foxlog-salesforce-debug-log/?utm_source=FoxCV",
       githubUrl: "https://github.com/MaximeClavel/FoxLog",
       videoId: "pE8SaN_r2V0"
     }
@@ -293,6 +294,7 @@ const cvDataEN = {
         { icon: "🎨", title: "Accessible Interface", desc: "Light and dark themes following the OS, WCAG AA contrast, keyboard navigation and visible focus rings" }
       ],
       chromeUrl: "https://chromewebstore.google.com/detail/foxlog-salesforce-debug-l/ljohmmiegangoogccdmafimhilpfekhh?utm_source=FoxCV",
+      firefoxUrl: "https://addons.mozilla.org/firefox/addon/foxlog-salesforce-debug-log/?utm_source=FoxCV",
       githubUrl: "https://github.com/MaximeClavel/FoxLog",
       videoId: "Kt5F_Ojo8_w"
     }
@@ -886,6 +888,10 @@ function renderProjects() {
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
               Chrome Web Store
             </a>
+            ${p.firefoxUrl ? `<a href="${p.firefoxUrl}" target="_blank" rel="noopener noreferrer" class="project-btn project-btn--firefox">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20.5 11H19V7c0-1.1-.9-2-2-2h-4V3.5a2.5 2.5 0 00-5 0V5H4c-1.1 0-2 .9-2 2v3.8h1.5c1.49 0 2.7 1.21 2.7 2.7s-1.21 2.7-2.7 2.7H2V20c0 1.1.9 2 2 2h3.8v-1.5c0-1.49 1.21-2.7 2.7-2.7s2.7 1.21 2.7 2.7V22H17c1.1 0 2-.9 2-2v-4h1.5a2.5 2.5 0 000-5z"/></svg>
+              Firefox Add-ons
+            </a>` : ''}
             <a href="${p.githubUrl}" target="_blank" rel="noopener noreferrer" class="project-btn project-btn--github">
               <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 2A10 10 0 002 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0012 2z"/></svg>
               GitHub

@@ -178,6 +178,8 @@ h1,h2,h3,h4,h5,h6{font-weight:700;color:#032d60}
 .project-btn{display:inline-flex;align-items:center;gap:.375rem;padding:.375rem .875rem;border-radius:.25rem;font-size:.75rem;font-weight:600;text-decoration:none;transition:all .15s;border:1px solid transparent}
 .project-btn--chrome{background:#0176d3;color:#fff}
 .project-btn--chrome:hover{background:#014486;color:#fff}
+.project-btn--firefox{background:#b83300;color:#fff}
+.project-btn--firefox:hover{background:#8f2800;color:#fff}
 .project-btn--github{background:#24292e;color:#fff}
 .project-btn--github:hover{background:#1b1f23;color:#fff}
 .project-features-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.75rem}
